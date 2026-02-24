@@ -21,17 +21,16 @@ fun main() {
         val nivel = if (cal < 60) {
             "Reprobado"
         } else if (cal < 70) {
-            // TODO: Completa
-            ""
+            "Suficiente"
+
         } else if (cal < 80) {
-            // TODO: Completa
-            ""
+            "Bien"
+
         } else if (cal < 90) {
-            // TODO: Completa
-            ""
+            "Notable"
+
         } else {
-            // TODO: Completa
-            ""
+            "Exelente"
         }
 
         println("$cal -> $nivel")
